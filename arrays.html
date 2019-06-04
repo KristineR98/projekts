@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <center> <h2>Masīvi</h2>
+  <ul>
+    <li> List all</li>
+  <li> array.push()</li>
+  <li> array.pop()</li>
+  <li> array.unshift()</li>
+  <li> array.shift()</li>
+  <li> array.splice()</li>
+  <li> array.slice()</li>
+  <li> array.sort()</li>
+  </ul>
+
+<div class="pievienots">
+<input id="addItem" type="text">
+<button onclick= "addName();" type="button" name="button">Pievienot</button><br>
+</div>
+
+<div class="pievienots">
+<input id="addItemFront" type="text">
+<button onClick= "addToFront();" type="button" name="button">Pievienot priekšā</button>
+</div>
+
+<div class="pogas">
+<button onClick= "showall();" type="button" name="button">Parādīt visus</button>
+</div>
+
+<div class="pogas">
+<button onclick="deleteLast();"  type="button" name="button">Izdzēst pēdējo</button>
+</div>
+
+<div class="pogas">
+<button onClick= "deleteFromFront();"  type="button" name="button">Izdzēst no priekšas</button>
+</div>
+
+<div class="pogas">
+<button onClick= "addArrays();" type="button" name="button">Savienot mainīgos</button>
+</div>
+
+<p id ="arrays"></p>
+
+<h4>Pirmais masīvs</h4>
+<p id= "all"></p>
+<h4>Savienotie masīvi</h4>
+<p id= "all2"></p>
+
+<div class="pogas">
+<button onClick= "spliceArrays();" type="button" name="button">Nomainīt jebkuru</button>
+</div>
+
+<div class="pogas">
+<button onClick= "sliceArrays();" type="button" name="button">Izdzēst noteiktos</button>
+</div>
+
+<div class="pogas">
+<button onClick= "sortArray();"type="button" name="button">Sakārtot masīvu</button>
+</div>
+
+<p id  = "spliceExample"></p>
+<p id  = "sliceExample"></p>
+<script src="arrays.js"></script>
+</center>
+  </body>
+</html>
